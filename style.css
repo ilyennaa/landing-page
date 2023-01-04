@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root {
+    --main-text: #f9faf8;
+    --secondary-text: #e5e7eb;
+    --dark-background: #1f2937;
+    --button-color: #3882f6;
+}
+
 * {
     margin: 0;
 }
@@ -10,14 +17,14 @@ body {
 
 .header,
 .footer {
-    background-color: #1F2937;
+    background-color: var(--dark-background);
 }
 
 .footer,
 a {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--secondary-text);
 }
 
 a:link,
@@ -30,7 +37,7 @@ a:active {
 .header {
     display: flex;
     height: 75px;
-    color: #F9FAF8;
+    color: var(--main-text);
     flex: 1;
     align-items: center;
 }
@@ -48,9 +55,50 @@ a:active {
 }
 
 .content {
+    display: flex;
     height: 50vh;
-    background-color: #1F2937;
+    background-color: var(--dark-background);
+    color: var(--main-text);
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.right-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#awesome-text {
+    font-size: 48px;
+    font-weight: bolder;
     
+}
+
+#main-img {
+    width: 450px;
+    height: 299px;
+    
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--main-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer {
