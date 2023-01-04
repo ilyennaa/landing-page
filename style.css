@@ -111,6 +111,36 @@ button {
     height: 52vh;
 }
 
+#info-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.info-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-img-text {
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+    font-family: 'Roboto', sans-serif;
+}
+
 .footer {
     display: flex;
     height: 75px;
