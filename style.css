@@ -166,6 +166,21 @@ button {
     width: 600px;
 }
 
+.call-to-action {
+    height: 52vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    height: 200px;
+    width: 1000px;
+    background-color: var(--button-color);
+    border-radius: 20px;
+}
+
 .footer {
     display: flex;
     height: 75px;
