@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 :root {
     --main-text: #f9faf8;
@@ -142,6 +142,28 @@ button {
     height: 200px;
     /* background-color: blue; */
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52vh;
+    background-color: var(--quote-background);
+}
+
+#quote-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style:italic;
+}
+
+.quote-container {
+    height: 250px;
+    width: 600px;
 }
 
 .footer {
